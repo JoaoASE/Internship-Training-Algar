@@ -1,6 +1,6 @@
 DECLARE
 v_id_cliente NUMBER := 2600;
-v_tipo_cliente VARCHAR2(100);
+v_tipo_cliente CTBC_TIPO_CLIENTE.CTBCDESCTIPOCLIENTE%TYPE;
 
 
 BEGIN 
